@@ -2,7 +2,7 @@ FROM terradue/docker-snap:latest
 
 USER root
 
-ADD environment.yml /tmp/environment.yml
+ADD .binder/environment.yml /tmp/environment.yml
 
 RUN mamba env create -n notebook -f /tmp/environment.yml
 
