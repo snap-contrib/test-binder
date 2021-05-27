@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/snap-contrib/docker-snap/snap:latest
+FROM terradue/docker-snap:latest
 
 USER root
 
