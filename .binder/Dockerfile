@@ -1,4 +1,4 @@
-FROM terradue/docker-snap:latest
+FROM docker.pkg.github.com/snap-contrib/docker-snap/snap:latest
 
 USER jovyan
 
