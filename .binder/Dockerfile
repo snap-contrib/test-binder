@@ -1,7 +1,7 @@
 FROM terradue/docker-snap:latest
 
 USER jovyan
-
+ENV HOME=/home/jovyan
 COPY --chown=1000:1000 . ${HOME}
 
 RUN mamba env create -n notebook -f ${HOME}/.binder/environment.yml
